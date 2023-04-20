@@ -3,8 +3,9 @@ package greene.ctis310;
 import java.util.ArrayList;
 
 /**
- * Hello world!
- *
+ * Liam Greene 
+ * CTIS 310
+ * 4/20/2023
  */
 public class App {
     public static void main(String[] args) {
