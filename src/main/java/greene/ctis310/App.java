@@ -26,10 +26,16 @@ public class App {
         dogs.get(4).setName("Bill");
         dogs.get(5).setName("John");
 
-        // add a for each loop that prints out the attributes of each dog
+        // give each dog a random age 
         for (Dog d : dogs) {
-            System.out.println(d);
+            d.setAge((int) (Math.random() * 15));
         }
+
+        //create a lamda expression that prints out each dog
+        dogs.forEach((d) -> {
+            System.out.println(d);
+        });
+        
 
         // create a loop that makes each dog bark a random number of times
         for (Dog d : dogs) {
